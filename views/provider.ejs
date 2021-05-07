@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.2/dist/css/bootstrap.min.css" integrity="sha384-qQEE8jdKJvtljxvtgWREfDOl721Sa1Qs8a1huL0PjJo3duiJ2wXnwTIRnbd/cTjY" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      <div class="container">
+
+          <h1>Plesae Put the question</h1>
+          <form action="/question" method="POST">
+            <div class="form-group">
+                <label for="question">Question</label>
+                <textarea class="form-control" name="question" id="question" rows="3"></textarea>
+             </div>
+             <div class="form-group">
+                <label for="option1">Option 1</label>
+                <input type="text" class="form-control" name="option1" id="option1" placeholder="Enter Option 1">
+             </div>
+             <div class="form-group">
+                <label for="option2">Option 2</label>
+                <input type="text" class="form-control" name="option2" id="option2" placeholder="Enter Option 2">
+             </div>
+             <div class="form-group">
+                <label for="option3">Option 3</label>
+                <input type="text" class="form-control" name="option3" id="option3" placeholder="Enter Option 3">
+             </div>
+             <div class="form-group">
+                <label for="option4">Option 4</label>
+                <input type="text" class="form-control" name="option4" id="option4" placeholder="Enter Option 4">
+             </div>
+             <div class="form-group">
+                <label for="answer">Answer</label>
+                <input type="text" class="form-control" name="answer" id="answer" placeholder="Provide Answer">
+             </div>
+             <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+            </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.2/dist/js/bootstrap.min.js" integrity="sha384-5kiNX2pRMEoJOeg8N1XzHzWAotDv8A4fZW6cFGvsDgSZmMuECwtOeZ1ta0eO7DBD" crossorigin="anonymous"></script>
+  </body>
+</html>

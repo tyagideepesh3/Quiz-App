@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.2/dist/css/bootstrap.min.css" integrity="sha384-qQEE8jdKJvtljxvtgWREfDOl721Sa1Qs8a1huL0PjJo3duiJ2wXnwTIRnbd/cTjY" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      <h1 id="timer"> <%= length %> * 90 </h1>
+      <h1 class="text-center">Quiz App</h1>
+      <div class="container">
+          <div class="modified">
+              <div class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                  <%for(var i = 0 ; i< length;i++){  %>
+                    <li class="list-group-item"> <button class="nextQues" id="<%= i + 1 %>">Question <%= i + 1%></button>  </li>
+                  <%}%>
+                </ul>
+              </div>
+          </div>
+          
+          <div class="modify1" id="ques">
+          </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.2/dist/js/bootstrap.min.js" integrity="sha384-5kiNX2pRMEoJOeg8N1XzHzWAotDv8A4fZW6cFGvsDgSZmMuECwtOeZ1ta0eO7DBD" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+   </body>
+</html>

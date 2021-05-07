@@ -1,0 +1,45 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.modified{
+    position: fixed;
+    left: 50px;
+    top: 5rem;
+    margin: 30px;
+}
+.modify1{
+    position: fixed;
+    top: 5rem;
+    right: 50px;
+}
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    width: 130px;
+    /* border: 3px solid darkred; */
+    margin: 5px;
+    border-radius: 50px;
+}
+.nextQues{
+    border: 3px solid darkred;
+    padding: 8px;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 5px;
+    width: 100%;
+}
+.nextQues:active{
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+.nextQues:disabled{
+    border: 3px solid black;
+    font-weight: bolder;
+}
